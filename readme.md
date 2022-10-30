@@ -1,3 +1,11 @@
+## 0.dependebcy
+```
+# ubuntu 18+
+> apt-get update
+> apt-get install -y gcc git make
+> git pull https://github.com/SirHao/MemCapture
+```
+
 ## 1.Userspace demo
 `test1/main.c` is a demo of user's application, use 
 ```
