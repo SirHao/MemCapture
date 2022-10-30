@@ -1,4 +1,4 @@
-## Userspace demo
+## 1.Userspace demo
 `test1/main.c` is a demo of user's application, use 
 ```
 $test1: gcc -o main main.c
@@ -12,7 +12,7 @@ $out> 	a b c d e f g h i
 ```
 
 
-## Our workspace
+## 2.Our workspace
 `test2/` is our main workspace to capture user-application systemcall on `malloc(2)` and `free(1)`
 The Makefile is already done, use 
 ```
@@ -24,7 +24,7 @@ to update the Mem.so for every modification
 
 
 
-## Load Mem.so into userspace
+## 3.Load Mem.so into user application
 in the terminal used to run `test1/main`, before run, type:
 ```
 export LD_PRELOAD=/home/xx/test2xxx/Mem.so     # notice: use absolute path of Mem.so
